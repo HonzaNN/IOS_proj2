@@ -1,3 +1,14 @@
+/* 
+
+Projek na paralerni procesy. Vystup do souboru "proj2.out"
+
+$ ./proj2 NO NH TI TB
+* NO: Pocet kysliku
+* NH: Pocet vodiku
+* TI: Maximalni cas milisekundach, po ktery atom kysliku/vodiku po svem vytvoreni ceka, nez se zaradi do fronty na vytvareni molekul. 0<=TI<=1000
+* TB: Maximalni cas v milisekundach nutny pro vytvoreni jedne molekuly. 0<=TB<=1000 
+
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
